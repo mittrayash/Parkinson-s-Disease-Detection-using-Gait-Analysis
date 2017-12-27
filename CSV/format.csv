@@ -1,0 +1,71 @@
+Time(sec),VGRF_left_s1,VGRF_left_s2,VGRF_left_s3,VGRF_left_s4,VGRF_left_s5,VGRF_left_s6,VGRF_left_s7,VGRF_left_s8,VGRF_right_s1,VGRF_right_s2,VGRF_right_s3,VGRF_right_s4,VGRF_right_s5,VGRF_right_s6,VGRF_right_s7,VGRF_right_s8,Total_force_left,Total_force_right
+------------
+
+Each line contains 19 columns:
+
+Column      1:   Time (in seconds)
+Columns   2-9:   Vertical ground reaction force (VGRF, in Newton) on each of 8
+,  ,  sensors located under the left foot
+Columns 10-17:   VGRF on each of the 8 sensors located under the right foot
+Column     18:   Total force under the left foot
+Column     19:   Total force under the right foot.
+
+When a person is comfortably standing with both legs parallel to each
+other, sensor locations inside the insole can be described (according
+to the Infotronic website; http://www.infotronic.nl/) as lying
+approximately at the following (X,Y) coordinates, assuming that the
+origin (0,0) is just between the legs and the person is facing towards
+the positive side of the Y axis:
+
+Sensor       X      Y
+----------------------------
+L1         -500   -800
+L2         -700   -400
+L3         -300   -400
+L4         -700      0
+L5         -300      0
+L6         -700    400
+L7         -300    400
+L8         -500    800
+
+R1          500   -800
+R2          700   -400
+R3          300   -400
+R4          700      0
+R5          300      0
+R6          700    400
+R7          300    400
+R8          500    800
+
+The X and Y numbers are in an arbitrary coordinate system reflecting
+the relative (arbitrarily scaled) positions of the sensors within each
+insole. During walking, the sensors inside each insole remain at the
+same relative position, but the two feet are no longer parallel to
+each other. Thus, this coordinate system enables a calculation of a
+proxy for the location of the center of pressure (COP) under each
+foot.
+
+
+Data file names:
+----------------
+These follow a common convention, e.g., GaCo01_02.txt  or  JuPt03_06.txt,
+where
+
+Ga, Ju or Si – indicate the study from which the data originated:
+    Ga - Galit Yogev et al (dual tasking in PD; Eur J Neuro, 2005)
+    Ju – Hausdorff et al (RAS in PD; Eur J Neuro, 2007)
+    Si - Silvi Frenkel-Toledo et al (Treadmill walking in PD; Mov Disorders,
+          2005)
+
+Co or Pt: Control subject or a PD Patient
+
+01: Subject number in the group
+
+A walk number of 10  (for the "Ga" study) indicates a dual-task walking,
+where the subject was engaged in serial-7 subtraction while walking.
+
+A walk number of 01 refers to a usual, normal walk. 
+
+.txt: file name extension
+
+The sampling rate was 100 Hz.
