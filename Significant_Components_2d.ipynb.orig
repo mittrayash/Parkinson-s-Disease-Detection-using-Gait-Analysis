@@ -445,7 +445,7 @@
     }
    ],
    "source": [
-    "# Retrieving the most significant component's name - PC1 and PC2\n",
+    "# Retrieving the most significant component's name - PCA1 and PCA2\n",
     "poly.get_feature_names(ds_co.columns)[150]"
    ]
   },
@@ -466,7 +466,7 @@
     }
    ],
    "source": [
-    "# Second most significant component's name - PC1\n",
+    "# Second most significant component's name - PCA1\n",
     "poly.get_feature_names(ds_co.columns)[125]"
    ]
   },
@@ -487,7 +487,7 @@
     }
    ],
    "source": [
-    "# Third most significant component's name - PC1\n",
+    "# Third most significant component's name - PCA1\n",
     "poly.get_feature_names(ds_co.columns)[132]"
    ]
   },
@@ -508,7 +508,7 @@
     }
    ],
    "source": [
-    "# Second most significant component's name - PC2\n",
+    "# Second most significant component's name - PCA2\n",
     "poly.get_feature_names(ds_co.columns)[148]"
    ]
   },
@@ -529,7 +529,7 @@
     }
    ],
    "source": [
-    "# Third most significant component's name - PC2\n",
+    "# Third most significant component's name - PCA2\n",
     "poly.get_feature_names(ds_co.columns)[141]"
    ]
   },
