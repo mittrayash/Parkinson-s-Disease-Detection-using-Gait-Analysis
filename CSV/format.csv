@@ -5,7 +5,7 @@ Each line contains 19 columns:
 
 Column      1:   Time (in seconds)
 Columns   2-9:   Vertical ground reaction force (VGRF, in Newton) on each of 8
-,  ,  sensors located under the left foot
+                 sensors located under the left foot
 Columns 10-17:   VGRF on each of the 8 sensors located under the right foot
 Column     18:   Total force under the left foot
 Column     19:   Total force under the right foot.
@@ -64,7 +64,7 @@ Co or Pt: Control subject or a PD Patient
 A walk number of 10  (for the "Ga" study) indicates a dual-task walking,
 where the subject was engaged in serial-7 subtraction while walking.
 
-A walk number of 01 refers to a usual, normal walk. 
+A walk number of 01 refers to a usual, normal walk.
 
 .txt: file name extension
 
