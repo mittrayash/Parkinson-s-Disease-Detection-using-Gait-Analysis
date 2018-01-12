@@ -1,0 +1,3 @@
+Problem Statement
+-----------------------
+To study gait analysis data of patients suffering from Parkinson's disease and make inferences about significant variances by performing dimensionality reduction using Principal Component Analysis. The analysis highlights the accelerations of the ankle, thigh and trunk of the body where the probability of occurrence of a freeze is maximum, where a freeze is defined as sudden brief inability to move.
